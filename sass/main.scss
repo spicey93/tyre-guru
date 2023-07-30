@@ -1,0 +1,39 @@
+// Custom variables
+// $primary: #2c3639;
+// $secondary: #3f4e4f;
+// $danger: #ff9aa2;
+// $warning: #ffdac1;
+// $info: #b5ead7;
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: system-ui, -apple-system, Roboto, "Segoe UI", Arial,
+    "Noto Sans", "Helvetica Neue", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+// $btn-border-radius: 0;
+// $input-border-radius: 0;
+// $input-border-color: black;
+
+// @import "../node_modules/bootstrap/scss/_functions";
+// @import "../node_modules/bootstrap/scss/_variables";
+
+// $custom-theme-colors: (
+//     "altlight": #dcd7c9,
+//     "altdark": #522192,
+//     "accent": #a27b5c,
+// );
+
+// $theme-colors: map-merge(
+//     $map1: $custom-theme-colors,
+//     $map2: $theme-colors,
+// );
+
+// // Import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+// :root {
+//     --bs-body-font-family: "Merriweather", serif;
+// }
